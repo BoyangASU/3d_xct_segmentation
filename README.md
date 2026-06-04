@@ -13,7 +13,7 @@ tomography (XCT)**. This repository implements the method from:
 ## Overview
 
 <p align="center">
-  <img src="figures/xct_poster.pdf" width="600" alt="ST-FFT framework">
+  <img src="figures/poster.png" width="600" alt="ST-FFT framework">
   <br>
   <em>Figure 1. The framework of 3D XCT Segmentation.</em>
 </p>
