@@ -51,9 +51,15 @@ tools and validated on the publicly available **NIST CoCr** XCT dataset.
    <p align="center">
     <img src="figures/1dseg.png" width="600" alt="pointcloud.png">
     <br>
-    <em>Figure 1. Point Cloud Reconstruction.</em>
+    <em>Figure 2. Instance Segmentation.</em>
    </p>
-   
+
+   <p align="center">
+    <img src="figures/voronoi" width="600" alt="ST-FFT framework">
+    <br>
+    <em>Figure 3. Voronoi Labeling.</em>
+   </p>
+
 4. **Feature extraction — `xctdefect.features`.** Per-defect voxel volume,
    equivalent spherical diameter (ESD), bounding-box dimensions, centroid, and
    aspect ratio, plus global porosity.
@@ -69,7 +75,7 @@ tools and validated on the publicly available **NIST CoCr** XCT dataset.
    <p align="center">
     <img src="figures/pointcloud.png" width="600" alt="pointcloud.png">
     <br>
-    <em>Figure 1. Point Cloud Reconstruction.</em>
+    <em>Figure 4. Point Cloud Reconstruction.</em>
    </p>
 
 ## NIST CoCr dataset
@@ -80,7 +86,7 @@ released by NIST), which differ in process parameters and porosity:
 <p align="center">
   <img src="figures/data.png" width="600" alt="data">
   <br>
-  <em>Figure 1. The CoCr Dataset.</em>
+  <em>Figure 5. The CoCr Dataset.</em>
 </p>
 
 | Sample | Voxel size (µm) | Hatch speed (mm/s) | Hatch spacing (mm) | Energy density (10⁹ J/m³) | Porosity (%) |
@@ -152,6 +158,18 @@ xctdefect.pointcloud.save_npy(pc, "defect_550.npy")
 ```
 
 ## Demo notebook
+
+<p align="center">
+  <img src="figures/3dseg.png" width="600" alt="ST-FFT framework">
+  <br>
+  <em>Figure 6. The results of 3D XCT Segmentation.</em>
+</p>
+
+<p align="center">
+  <img src="figures/obj1.png" width="600" alt="ST-FFT framework">
+  <br>
+  <em>Figure 7. The Object Reconstruction.</em>
+</p>
 
 [`notebooks/demo.ipynb`](notebooks/demo.ipynb) runs the full pipeline on a
 **synthetic CT volume**, so it works out of the box without the large XCT
