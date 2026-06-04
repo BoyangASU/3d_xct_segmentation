@@ -1,0 +1,15 @@
+numpy>=1.21
+scipy>=1.7
+scikit-image>=0.19
+scikit-learn>=1.0
+opencv-python>=4.5
+pandas>=1.3
+matplotlib>=3.4
+# notebook extras
+seaborn>=0.11
+tqdm>=4.60
+# optional GPU labeling backend (uncomment if you have a supported GPU):
+# pyclesperanto-prototype
+# optional 3D visualization:
+# plotly
+# napari

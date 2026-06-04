@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data & outputs (large XCT stacks, exports)
+data/
+*.tif
+*.tiff
+*.npy
+*.pcd
+results/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

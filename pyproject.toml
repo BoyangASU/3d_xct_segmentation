@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xctdefect"
+version = "1.0.0"
+description = "3D XCT image segmentation and point-cloud analysis for internal-defect identification in laser powder bed fusion (LPBF) parts."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Boyang Xu", email = "boyangxu@asu.edu" },
+    { name = "Nicole Van Handel" },
+    { name = "Shenghan Guo" },
+]
+keywords = ["xct", "computed-tomography", "additive-manufacturing", "lpbf", "defect-detection", "segmentation", "point-cloud", "dbscan", "voronoi"]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "scikit-image>=0.19",
+    "scikit-learn>=1.0",
+    "opencv-python>=4.5",
+    "pandas>=1.3",
+    "matplotlib>=3.4",
+]
+
+[project.optional-dependencies]
+gpu = ["pyclesperanto-prototype"]      # optional GPU labeling backend
+viz = ["plotly", "napari", "pyntcloud", "open3d"]
+notebook = ["jupyter", "seaborn", "tqdm"]
+
+[project.urls]
+Repository = "https://github.com/BoyangASU/xct-defect-segmentation"
+
+[tool.setuptools.packages.find]
+where = ["src"]
