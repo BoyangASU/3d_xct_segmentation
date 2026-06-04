@@ -215,13 +215,15 @@ synthetic generator in the demo notebook as a template. `.gitignore` excludes
 ## Citation
 
 ```bibtex
-@inproceedings{xu_xct_lpbf,
-  title     = {3-D Image Segmentation and Point Cloud Modeling for Internal
-               Defect Identification in Laser Powder Bed Fusion Parts},
-  author    = {Xu, Boyang and Van Handel, Nicole and Guo, Shenghan},
-  booktitle = {ASME Manufacturing Science and Engineering Conference (MSEC)},
-  year      = {2023},
-  note      = {School of Manufacturing Systems and Networks, Arizona State University}
+@article{xu2024three,
+  title={Three-dimensional X-ray computed tomography image segmentation and point cloud reconstruction for internal defect identification in laser powder bed fused parts},
+  author={Xu, Boyang and Ouidadi, Hasnaa and Handel, Nicole Van and Guo, Shenghan},
+  journal={Journal of Manufacturing Science and Engineering},
+  volume={146},
+  number={9},
+  pages={091002},
+  year={2024},
+  publisher={American Society of Mechanical Engineers}
 }
 ```
 
