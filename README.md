@@ -49,7 +49,7 @@ tools and validated on the publicly available **NIST CoCr** XCT dataset.
    (pyclesperanto) when available, with a scikit-image / SciPy CPU fallback.
 
    <p align="center">
-    <img src="figures/1dseg" width="600" alt="pointcloud.png">
+    <img src="figures/1dseg.png" width="600" alt="pointcloud.png">
     <br>
     <em>Figure 1. Point Cloud Reconstruction.</em>
    </p>
