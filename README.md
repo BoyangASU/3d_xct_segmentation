@@ -47,15 +47,22 @@ tools and validated on the publicly available **NIST CoCr** XCT dataset.
    defect mask; Voronoi labeling grows each seed and is intersected with the
    mask so every connected defect gets a unique label. Uses the GPU backend
    (pyclesperanto) when available, with a scikit-image / SciPy CPU fallback.
-3. **Feature extraction — `xctdefect.features`.** Per-defect voxel volume,
+
+   <p align="center">
+    <img src="figures/1dseg" width="600" alt="pointcloud.png">
+    <br>
+    <em>Figure 1. Point Cloud Reconstruction.</em>
+   </p>
+   
+4. **Feature extraction — `xctdefect.features`.** Per-defect voxel volume,
    equivalent spherical diameter (ESD), bounding-box dimensions, centroid, and
    aspect ratio, plus global porosity.
-4. **DBSCAN clustering — `xctdefect.clustering`.** Defects are clustered in the
+5. **DBSCAN clustering — `xctdefect.clustering`.** Defects are clustered in the
    sorted bounding-box feature space `[max, mid, min]` (min-max scaled).
    DBSCAN flags outliers (`-1`); the mean dimensions of the remaining typical
    defects define a benchmark. A k-distance helper guides the `eps` choice and
    a silhouette score measures cluster quality.
-5. **Point clouds — `xctdefect.pointcloud`.** Any defect (or all of them) can
+6. **Point clouds — `xctdefect.pointcloud`.** Any defect (or all of them) can
    be exported as an `(x, y, z)` point cloud, plus max-intensity projections
    along each axis for quick visualization.
 
@@ -64,7 +71,6 @@ tools and validated on the publicly available **NIST CoCr** XCT dataset.
     <br>
     <em>Figure 1. Point Cloud Reconstruction.</em>
    </p>
-
 
 ## NIST CoCr dataset
 
