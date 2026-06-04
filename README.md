@@ -59,10 +59,23 @@ tools and validated on the publicly available **NIST CoCr** XCT dataset.
    be exported as an `(x, y, z)` point cloud, plus max-intensity projections
    along each axis for quick visualization.
 
+   <p align="center">
+    <img src="figures/pointcloud.png" width="600" alt="pointcloud.png">
+    <br>
+    <em>Figure 1. Point Cloud Reconstruction.</em>
+   </p>
+
+
 ## NIST CoCr dataset
 
 The method is demonstrated on six XCT scans of LPBF CoCr disks (publicly
 released by NIST), which differ in process parameters and porosity:
+
+<p align="center">
+  <img src="figures/data.png" width="600" alt="data">
+  <br>
+  <em>Figure 1. The CoCr Dataset.</em>
+</p>
 
 | Sample | Voxel size (µm) | Hatch speed (mm/s) | Hatch spacing (mm) | Energy density (10⁹ J/m³) | Porosity (%) |
 |---|---|---|---|---|---|
