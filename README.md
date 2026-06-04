@@ -55,7 +55,7 @@ tools and validated on the publicly available **NIST CoCr** XCT dataset.
    </p>
 
    <p align="center">
-    <img src="figures/voronoi" width="600" alt="ST-FFT framework">
+    <img src="figures/voronoi.png" width="600" alt="ST-FFT framework">
     <br>
     <em>Figure 3. Voronoi Labeling.</em>
    </p>
