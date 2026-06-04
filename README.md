@@ -12,6 +12,12 @@ tomography (XCT)**. This repository implements the method from:
 
 ## Overview
 
+<p align="center">
+  <img src="figures/poster.png" width="600" alt="ST-FFT framework">
+  <br>
+  <em>Figure 1. The three-stage ST-FFT framework.</em>
+</p>
+
 Internal defects — porosity, overheating, poor fusion — degrade the mechanical
 performance of LPBF parts. XCT is the preferred non-destructive way to inspect
 them, but interpretation usually leans on practitioner knowledge and
