@@ -168,7 +168,13 @@ xctdefect.pointcloud.save_npy(pc, "defect_550.npy")
 <p align="center">
   <img src="figures/obj1.png" width="600" alt="ST-FFT framework">
   <br>
-  <em>Figure 7. The Object Reconstruction.</em>
+  <em>Figure 7. The Object Reconstruction (Part A).</em>
+</p>
+
+<p align="center">
+  <img src="figures/obj2.png" width="600" alt="ST-FFT framework">
+  <br>
+  <em>Figure 8. The Object Reconstruction (Part B).</em>
 </p>
 
 [`notebooks/demo.ipynb`](notebooks/demo.ipynb) runs the full pipeline on a
